@@ -1,0 +1,10 @@
+{
+    "name": "zing/opensearch",
+    "authors": [
+        {
+            "name": "zingimmick",
+            "email": "zingimmick@outlook.com"
+        }
+    ],
+    "require": {}
+}
