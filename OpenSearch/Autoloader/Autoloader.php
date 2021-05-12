@@ -18,7 +18,7 @@
  * under the License.
  */
 
-$basePath = __DIR__ . '/../opensearch-sdk-php-release-v3.1.0/';
+$basePath = __DIR__ . '/../../';
 require_once $basePath . 'OpenSearch/Thrift/ClassLoader/ThriftClassLoader.php';
 
 use Thrift\ClassLoader\ThriftClassLoader;
