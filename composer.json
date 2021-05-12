@@ -1,10 +1,12 @@
 {
-    "name": "zing/opensearch",
-    "authors": [
-        {
-            "name": "zingimmick",
-            "email": "zingimmick@outlook.com"
-        }
-    ],
-    "require": {}
+    "name": "zing/alibabacloud-opensearch",
+    "description": "Alibaba Cloud OpenSearch SDK for PHP",
+    "require": {
+        "php": ">=5.3"
+    },
+    "autoload": {
+        "files": [
+            "OpenSearch/Autoloader/Autoloader.php"
+        ]
+    }
 }

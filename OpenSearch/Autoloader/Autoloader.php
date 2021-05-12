@@ -18,7 +18,7 @@
  * under the License.
  */
 
-$basePath = __DIR__ . '/../php_3.0.0_helpdoc/';
+$basePath = __DIR__ . '/../../';
 require_once $basePath . 'OpenSearch/Thrift/ClassLoader/ThriftClassLoader.php';
 
 use Thrift\ClassLoader\ThriftClassLoader;
