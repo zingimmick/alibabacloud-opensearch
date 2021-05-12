@@ -211,7 +211,6 @@ class OpenSearchClient extends OpenSearch {
             $query = !empty($params) ? http_build_query($params, null, '&', PHP_QUERY_RFC3986) : '';
         } else {
             $arg = '';
-            $arg = '';
             foreach ($params as $key => $val) {
                 $arg .= rawurlencode($key) . "=" . rawurlencode($val) . "&";
             }
