@@ -10,6 +10,12 @@
     "autoload": {
         "files": [
             "OpenSearch/Autoloader/Autoloader.php"
-        ]
+        ],
+        "psr-4": {
+            "Thrift\\": "OpenSearch/Thrift/",
+            "OpenSearch\\Client\\": "OpenSearch/Client/",
+            "OpenSearch\\Generated\\": "OpenSearch/Generated/",
+            "OpenSearch\\Util\\": "OpenSearch/Util/"
+        }
     }
 }
